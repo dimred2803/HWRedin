@@ -15,8 +15,8 @@ public class Parser {
         try (BufferedReader buffer = new BufferedReader(new FileReader("test.json"))) {
             int c;
             while ((c = buffer.read())!=-1) {
-                if (c < 14 && c >8) continue;
-                else str+=(char)c;
+                if (c<14 && c>8 || c == 32) continue;
+                str+=(char)c;
             }
             System.out.println();
         } catch (IOException e) {

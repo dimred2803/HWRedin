@@ -13,7 +13,6 @@
         <module>HW_OOP</module>
         <module>CustomLinkedList</module>
         <module>XML_JSONParser</module>
-        <module>UnitsStreamsComparators</module>
     </modules>
 
     <properties>
